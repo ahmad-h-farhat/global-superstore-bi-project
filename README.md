@@ -27,6 +27,7 @@ This is a complete Tableau Business Intelligence project exploring sales, profit
 
 ## 📁 Project Structure
 ```text
+global-superstore-bi-project
 ├── data/ # Raw and Cleaned dataset
 ├── dashboards/ # PNG exports of dashboards 
 ├── workbook/ # Tableau packaged workbook (.twbx)
