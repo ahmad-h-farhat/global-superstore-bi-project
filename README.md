@@ -30,7 +30,7 @@ This is a complete Tableau Business Intelligence project exploring sales, profit
 ├── data/ # Raw and Cleaned dataset
 ├── dashboards/ # PNG exports of dashboards 
 ├── workbook/ # Tableau packaged workbook (.twbx)
-├── python notebook/ # Python codes 
+└── python notebook/ # Python codes 
 ```
 
 ## 📂 Dataset
