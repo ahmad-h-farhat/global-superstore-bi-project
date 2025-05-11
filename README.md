@@ -1,13 +1,13 @@
 # Global Superstore BI Dashboard
 
-A fully interactive Business Intelligence dashboard created using Tableau to explore key sales, profit, and discount performance across customers, products, and regions.
+This is a complete Tableau Business Intelligence project exploring sales, profit, and discount dynamics across product categories, customers, and regions using the Global Superstore dataset.
 
 ## 🎯 Objectives
 
-- Provide executive-level KPIs (Sales, Profit, AOV, Profit Margin, Orders)
-- Identify top-performing products and customers
-- Analyze discount distribution and margin risk
-- Enable drilldown via filters (Region, Year, Category)
+- Present executive-level KPIs: Sales, Profit, AOV, Orders, Margin
+- Identify top-performing products and most profitable customers
+- Analyze discount behavior across sub-categories
+- Enable user-driven filtering via interactive controls
 
 ## 📊 Dashboard Previews
 
@@ -17,26 +17,28 @@ A fully interactive Business Intelligence dashboard created using Tableau to exp
 
 ### Drilldown Dashboard
 
-![Drilldown View](dashboards/drilldown_dashboard.png)
+![Drilldown Dashboard](dashboards/drilldown_dashboard.png)
 
 ## 🛠️ Tools Used
 
 - Tableau
-- Python (for data cleaning , mock visualizing)
-- GitHub (for documentation)
+- Python (for data preparation and mock visualization)
+- GitHub
 
 ## 📁 Project Structure
-
-- `dashboards/`: All screenshots and visual exports
-- `data/`: Source datasets (cleaned)
-- `workbook/`: Tableau packaged workbook (`.twbx`)
-- `README.md`: Full project overview and description
+├── data/ # Raw and Cleaned dataset
+├── dashboards/ # PNG exports of dashboards
+├── workbook/ # Tableau packaged workbook (.twbx)
 
 ## 📂 Dataset
 
-Public dataset from [Kaggle – Global Superstore](https://www.kaggle.com/datasets/...)
-
-Fields used:
-- Order ID, Product Name, Category, Sub-Category
+Global Superstore dataset from Kaggle, including:
 - Sales, Profit, Discount, Quantity
-- Order Date, Region, Segment
+- Order Date, Customer Info, Region, Category
+- Product Metadata
+
+## 📓 Python Notebook
+
+Includes data exploration, column cleaning, and preparation for Tableau:
+
+- `data_cleaning_and_analysis.ipynb`
